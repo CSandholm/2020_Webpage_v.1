@@ -1,0 +1,477 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, h7, h8, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+/*********************************RESET END*****************************/
+
+
+
+
+
+
+@font-face
+{
+    font-family: "PokemonHollow";
+    src: url("fonts/PokemonHollow.woff") format("woff");
+}
+@font-face
+{
+    font-family: "PokemonSolid";
+    src: url("fonts/PokemonSolid.woff") format("woff");
+}
+
+body p /*paragrafer inom body*/
+{
+    font-family: "sen", "arial", sans-serif;
+    font-size: 14px;
+    color: #222;    
+    float: left;
+    padding: 22px;
+    
+    
+}
+.content p,
+.content3 p,
+.processanalys p
+{
+    border-top: solid;
+    border-color: black;
+    border-width: 90%;
+    line-height: 1.5;
+}
+
+p2
+{
+    font-family: "sen", "arial", sans-serif;
+    font-size: 15px;
+    color: #222;    
+    float: left;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    line-height: 1.6;
+    background-color: white;
+    max-width: 1200px;
+    
+ 
+}
+p3
+{
+    font-family: "sen", "arial", sans-serif;
+    font-size: 15px;
+    color: #222;    
+    float: left;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 5px;
+    padding-bottom: 8px;
+    line-height: 1.6;
+    background-color: white;
+    max-width: 1200px;
+    text-indent: 50px;
+ 
+}
+
+
+h1
+{
+    font-family: "PokemonSolid", "arial", sans-serif;
+    font-size: 28px;
+    color: darkred;   
+    padding: 7px;
+    line-height: 3;
+    margin: auto;
+    letter-spacing: 4px;
+}
+
+h2,
+h3,
+h8
+{
+    font-family: "PokemonSolid", "arial", sans-serif;
+    font-size: 16px;
+    color: darkred;    
+    padding: 7px;
+    line-height: 3;
+    
+    
+}
+h7
+{
+    font-family: "sen", "arial", sans-serif;
+    font-size: 25px;
+    color: #222;    
+    padding: 7px;
+    line-height: 10;
+    position: center;
+    
+}
+
+
+body /*body utseende*/
+{   
+    background-color: #eee;
+    border-style: solid;
+    background-image: linear-gradient(darkgray, #eee);
+    border-width: 1px;
+    margin: auto;
+    max-width: 1200px;
+}
+
+
+.header                 /*sidhuvud*/
+{
+    width: 100%;
+    
+       
+}
+.headerimage         /*Sidohuvud bild*/
+{
+    width: 100%; 
+}
+
+ul                  /*Lista definierad och stil*/
+{
+    list-style-type: none;
+    width: 100%;
+    border: 0.5px solid grey;
+    background-color: lightgray;
+    margin-top: -3px;
+    letter-spacing: 3px;
+}
+li           /*Lista text utseende och position*/
+{
+    text-align: center;     
+    border-bottom: 1px solid #555;
+    
+    font-family: 'PokemonSolid', sans-serif;
+    
+    
+}
+li a /*Lista färg, storlek, padding*/
+{
+  display: block;
+    
+  color: darkred;
+  padding: 10px;
+  
+}
+
+li a:hover  /*Vad som sker när man håller över listan med muspekaren*/
+{
+  background-color: blue;
+  color: white;
+}
+
+
+.processanalys ul li
+{
+    list-style-type: none;
+    width: 100%;
+    background-color: beige;
+    margin-top: -3px;
+    text-align: center;     
+    border-bottom: 1px solid beige;
+    font-family: "arial" ,sans-serif;
+    border: 0.5px solid black;
+    
+}
+
+
+.all-circular-images
+{
+    width: 200px;
+    height: 200px;
+    height: auto;
+    border-radius: 50%;
+    padding:10px;
+    background-color: #fff;
+}
+
+.circular-pictures1 /* bild till första stycket content1*/
+{  
+    float: left;
+    clear: both;
+}
+.circular-pictures2 /* bild till andra stycket content2 */
+{
+    display: block;
+    margin:auto;
+    
+}
+.circular-pictures3 /*bild till tredje stycket content3*/
+{
+    float: right;
+}
+
+.pa-image /*bild till processanalysen*/
+{
+    display: block;
+    margin: auto;
+    
+}
+
+.content /*marginal stycke ett*/
+{ 
+    float: left;
+    max-width: 55%;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    background-color: white;
+    padding: 2px;
+    height: 100%;
+    min-height: 705px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    background-image: linear-gradient(#eee, white);
+    
+    margin-left: 8%;
+    
+}
+
+
+.content3 /*marginal stycke tre*/
+{
+    float: left;
+    max-width: 25%;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    background-color: white;
+    padding: 2px;
+    height: 100%;
+    min-height: 705px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    background-image: linear-gradient(#eee, white);
+    
+    border-style: solid;
+    border-top: 10px;
+    border-bottom: 10px;
+    border-width: 1px;
+    border-right:10px;
+    margin-left: 3%;
+    margin-right: 8%;
+    
+}
+
+.recensioner /*processanalys stycke*/
+{
+    margin: auto;
+    
+    background-image: linear-gradient(#eee, white);
+    width: 90%;
+    
+    height: 100%;
+    
+    margin-top: 25px;
+    margin-bottom: 25px;
+    
+}
+
+.processanalys h3 /*underskrift*/
+{
+    letter-spacing: 1px;
+    
+    line-height: 5;
+}
+
+
+footer /*sidofot*/
+{
+    clear: both;
+    height: 150px;
+    max-width: 1200px;
+    background-image: linear-gradient(#eee, red);
+    
+}
+footer p
+{
+    clear: left;
+    color: aliceblue;
+}
+
+footer /*rubriker sidofot*/
+h6, 
+h4, 
+h5
+{
+    float: left;
+    font-family: "museo_sans", "arial", sans-serif;
+    font-weight: bold;
+    color: aliceblue;
+    padding: 7px;
+    
+}
+
+.sidefoottext /*textrutor*/
+{
+    float: left;
+    padding: 2px;
+    
+    
+}
+.adress /*marginaler*/
+{
+    
+    margin-left: 8%;
+    
+}
+
+.telefon /*marginaler*/
+{
+    
+    margin-left: 18%;
+    margin-right: 20%;
+    
+    
+}
+
+.e-post /*marginaler*/
+{
+    margin-right: 8%;;
+    
+    
+}
+
+@media print
+{    
+    .noPrint
+    {
+        display: none !important;
+    }
+}
+
+
+
+/***********************************MEDIAQ*************************************/
+
+
+@media screen and (max-width: 945.33px) /*mediaqueries allt under 945.33px*/
+{
+
+
+
+    .circular-pictures1 /* bild till första stycket content1*/
+    {  
+        float: left;
+        clear: both;
+    }
+    .circular-pictures2 /* bild till andra stycket content2 */
+    {
+        display: block;
+        margin:auto;
+    
+    }
+    .circular-pictures3 /*bild till tredje stycket content3*/
+    {
+        float: right;
+    }
+
+    .pa-image /*bild till processanalysen*/
+    {
+        display: block;
+        margin: auto;
+    
+    }
+
+    .all-content /*Samtliga stycken på index sidan*/
+    {   
+        float: left;
+        max-width: 100%;
+        padding-bottom: 100px;
+    
+        background-color: white;
+        padding: 5px;
+        height: 100%;
+        min-height: 600px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    
+
+    }   
+
+    .content /*marginaler*/
+    { 
+        margin-left: 3%;
+        margin-right: 3%; 
+    }
+
+    .content2 /*marginaler*//*marginaler*/ 
+    {
+        margin-left: 3%;
+        margin-right: 3%; 
+    }
+
+
+    .content3 /*marginaler*/ 
+    {
+        margin-left: 3%;
+        margin-right: 3%; 
+    }
+    footer /*ökad storlek inom mediaq*/
+    {
+        height: 200px;
+    }
+    .adress /*marginaler*/
+    {  
+        margin-left: 14%;
+    }
+    .telefon /*marginaler*/
+    {
+        margin-left: 14%;    
+    }
+
+    .e-post /*marginaler*/
+    {
+    margin-left: 14%;
+    }
+}
